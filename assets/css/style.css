@@ -1,0 +1,65 @@
+* {
+   width: 960px;
+}
+
+body {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fvenngage-wordpress.s3.amazonaws.com%2Fuploads%2F2018%2F09%2FSimple-Background-Images-10.png&imgrefurl=https%3A%2F%2Fvenngage.com%2Fblog%2Fsimple-backgrounds%2F&docid=W4X4k-S8Co9MJM&tbnid=wa5vH6De7UbiKM%3A&vet=10ahUKEwj6gs2d79rgAhUFL6wKHcAyAPUQMwi-AShHMEc..i&w=821&h=460&bih=735&biw=1321&q=background%20images&ved=0ahUKEwj6gs2d79rgAhUFL6wKHcAyAPUQMwi-AShHMEc&iact=mrc&uact=8");
+}
+
+.name {
+    width: 75%;
+    margin-left: -1em;
+}
+.logo {
+    display: inline-block;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0.04em;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1em;
+    width: auto;
+    margin: 0;
+}
+.nav {
+    width: 49%;
+    text-align: right;
+    color: #b1adb3;
+    font-weight: normal;
+    position: fixed; 
+    right: 10px;
+    top: 0px;
+    
+}
+.nav {
+    display: inline-block;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+.nav a {
+    color: #b1adb3;
+    text-decoration: none;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+.nav a:hover {
+    color: #4aaaa5;
+}
+.nav a.active {
+    color: #000000;
+}
+
+#bio-image {
+    width: 200px;
+    height: 275px;
+    float: left;
+    margin-right: 20px;
+}
+
+.p {
+    float: left;
+    margin: 0
+}
+
+ 

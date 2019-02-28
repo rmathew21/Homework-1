@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fvenngage-wordpress.s3.amazonaws.com%2Fuploads%2F2018%2F09%2FSimple-Background-Images-10.png&imgrefurl=https%3A%2F%2Fvenngage.com%2Fblog%2Fsimple-backgrounds%2F&docid=W4X4k-S8Co9MJM&tbnid=wa5vH6De7UbiKM%3A&vet=10ahUKEwj6gs2d79rgAhUFL6wKHcAyAPUQMwi-AShHMEc..i&w=821&h=460&bih=735&biw=1321&q=background%20images&ved=0ahUKEwj6gs2d79rgAhUFL6wKHcAyAPUQMwi-AShHMEc&iact=mrc&uact=8");
+    background-image: url("../images/dynamic-style.png");
 }
 
 .name {
@@ -28,8 +28,8 @@ body {
     color: #b1adb3;
     font-weight: normal;
     position: fixed; 
-    right: 10px;
-    top: 0px;
+    right: 100px;
+    top: 50px;
     
 }
 .nav {
@@ -50,6 +50,10 @@ body {
     color: #000000;
 }
 
+h1 {
+    color: #4aaaa5;
+}
+
 #bio-image {
     width: 200px;
     height: 275px;
@@ -59,7 +63,44 @@ body {
 
 .p {
     float: left;
-    margin: 0
+    margin: 0;
+     
+}
+
+h6 {
+    color: #666666;
+    background-color: #666666
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+}
+
+.firstimg {
+    width: 200px;
+    height: 200px;
+    position: static;
+    float:left;
+}
+
+.secondimg {
+    width: 200px;
+    height: 200px;
+    position: static;
+    float: right;
+}
+
+.thirdimg {
+    width: 200px;
+    height: 200px;
+    position: static;
+    float: left;
+}
+
+.fourthimg {
+    width: 200px;
+    height: 200px;
+    position: static;
+    float: right;
 }
 
  
